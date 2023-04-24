@@ -1,2 +1,2 @@
 # Zampsoftwareproject 
-estudiante de programación web A 
+estudiantes de programación web A 
