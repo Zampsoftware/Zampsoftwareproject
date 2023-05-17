@@ -1,0 +1,78 @@
+NOTAS DE TRABAJO 
+
+Si deseas reducir la cantidad de código en tu archivo JSX y agregar imágenes de una manera más eficiente, puedes considerar almacenar las imágenes en un array y luego mapear sobre el array para generar los elementos de la lista de productos. Por ejemplo, podrías crear un array de objetos que contengan la información de cada producto, incluyendo la imagen:
+
+const productos = [
+  {
+    imagen: IMG,
+    titulo: "Título del producto 1",
+    categoria: "Categoría 1",
+    precio: "$50.000"
+  },
+  {
+    imagen: imagen10,
+    titulo: "Título del producto 2",
+    categoria: "Categoría 2",
+    precio: "$40.000"
+  },
+  // Agregar más productos aquí
+];
+Luego, puedes mapear sobre el array productos para generar los elementos de la lista de productos:
+
+export const Productolista = () => {
+  return (
+    <>
+      <h1 className="title">PRODUCTOS</h1>
+      <div className="productos">
+        {productos.map((producto) => (
+          <div className="producto" key={producto.titulo}>
+            <a href="#">
+              <div className="producto_img">
+                <img src={producto.imagen} alt=""></img>
+              </div>
+            </a>
+            <div className="producto_footer">
+              <h1>{producto.titulo}</h1>
+              <p>{producto.categoria}</p>
+              <p className="price">{producto.precio}</p>
+            </div>
+            <div className="boton">
+              <button className="btn">añadir al carrito</button>
+              <div>
+                <a href="#" className="">
+                  vista
+                </a>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </>
+  );
+};
+Esto generará un elemento de la lista de productos para cada objeto en el array productos. Puedes agregar más objetos al array para agregar más productos a la lista. Esto te permite agregar imágenes y otra información de producto de una manera más eficiente y con menos código.
+
+¿Te gustaría más información sobre cómo trabajar con arrays y mapear sobre ellos en un proyecto de React? 
+
+import Zampsoftwarelogo from "../../../images/Zampsoftwarelogo.jpeg";
+<header>
+ <Link to="*" onClick={() => console.log("Logo clicked")}>
+ <div className="logo">
+ <img src = {Zampsoftwarelogo} alt="logo" width="50px"></img>
+ </div>
+ </Link>
+ <ul>
+ <li>
+ <Link to="*">INICIO</Link>
+ </li>
+ </ul>
+ <ul>
+ <li>
+ <Link to="/Productolista">PRODUCTOS</Link>
+ </li>
+ </ul>
+ <div className="cart">
+ <box-icon name="cart"></box-icon>
+ <span className="item_total">0</span>
+ </div>
+ </header>
