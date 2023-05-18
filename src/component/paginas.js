@@ -9,7 +9,7 @@ const Paginas = () => {
       <Routes>
       
         <Route path="/productolista" element={<Productolista />} />
-        <Route path="*" element={<Inicio />} />
+        <Route path="/*" element={<Inicio />} />
         <Route path="/inicio2" element={<Inicio2 />} />
       </Routes>
     </section>

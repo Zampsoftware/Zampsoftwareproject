@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding:0;
+  border:#5d1cd5;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -30,7 +31,6 @@ header{
    max-width: 100%;
    overflow: hidden;
    display:flex;
-   justify-content: space-around;
    align-items: center;
    flex-wrap: wrap;
    box-sizing:border-box;
@@ -39,9 +39,7 @@ header{
    position:fixed;
    top: 0;
    left : 0;  
-   display: flex;
   justify-content: space-around;
-  align-items: center;
   background-color: white;
   box-shadow: 0 5px 10px #5d1cd5; 
 } 
@@ -209,17 +207,26 @@ header .cart span{
   width: 250px;
   height: 250px;
 } .portada{ 
-  width: 1400px;
+  width: 100%;
   height: auto;
   object-fit:cover;
+  margin: 0;
+  padding: 0;
 } .inicio2{ 
   width: 100%;
-  margin: 0 auto;
-  padding:  9rem;
+  margin: 0;
+  padding:  0;
   text-align:left;
-  margin-top: 100px;
+  margin-top: 60px;
   padding-top: 0;
-} 
+} .title2{ 
+  margin:0;
+  padding:0;
+} @media (max-width: 600px) {
+  .inicio2 {
+    margin-top: 80px;
+  }
+}
 
 @media only screen and (max-width:600px){ 
   header ul {
