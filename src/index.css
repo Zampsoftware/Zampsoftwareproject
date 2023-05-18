@@ -13,7 +13,7 @@ code {
     monospace;
 }
 .App { 
-  max-width:1550%;
+  max-width: 100%;
   width: 100%;
   min-height:100vr;
   margin:0 auto;
@@ -33,7 +33,6 @@ header{
    justify-content: space-around;
    align-items: center;
    flex-wrap: wrap;
-   position: fixed;
    box-sizing:border-box;
    background-color: white;
    box-shadow: 0 5px 10px #5d1cd5;
@@ -107,7 +106,7 @@ header .cart span{
  justify-content: center;
  color:white;
  padding:0rem;
- font: size 1.5rem;
+ font-size:  1.5rem;
  font-weight: 700;
  background-color: #ff1919;
 }
@@ -200,7 +199,7 @@ header .cart span{
 
   } 
  .productos{ 
-  padding:5 rem 1rem;
+  padding: 5rem 1rem;
   margin:0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
@@ -209,7 +208,19 @@ header .cart span{
 } .producto_img img {
   width: 250px;
   height: 250px;
-}
+} .portada{ 
+  width: 1400px;
+  height: auto;
+  object-fit:cover;
+} .inicio2{ 
+  width: 100%;
+  margin: 0 auto;
+  padding:  9rem;
+  text-align:left;
+  margin-top: 100px;
+  padding-top: 0;
+} 
+
 @media only screen and (max-width:600px){ 
   header ul {
     display: none;

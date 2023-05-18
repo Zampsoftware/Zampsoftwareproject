@@ -6,14 +6,14 @@ const Inicio = () => {
  return ( 
     
     <header>
-     <Link to="*" onClick={() => console.log("Logo clicked")}>
+     <Link to="/inicio2" onClick={() => console.log("Logo clicked")}>
      <div className="logo">
      <img src = {Zampsoftwarelogo} alt="logo" width="50px"></img>
      </div>
      </Link>
      <ul>
      <li>
-     <Link to="*">INICIO</Link>
+     <Link to="/inicio2">INICIO</Link>
      </li>
      </ul>
      <ul>
