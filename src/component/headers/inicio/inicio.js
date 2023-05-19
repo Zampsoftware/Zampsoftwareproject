@@ -1,31 +1,20 @@
 import React from "react";
-import Zampsoftwarelogo from "../../../images/Zampsoftwarelogo.jpeg";
+import portada from '../../../images/portada.jpg';
 import { Link } from "react-router-dom";
 
 const Inicio = () => {
  return ( 
+    <div className="inicio">  
+      <Link to="/*" >
+       <h1 className="title2">INICIO</h1> 
+       
+      </Link>
+      <Link to="/Productolista" >
+       <h1 className="title2">PRODUCTOS</h1>
+      </Link>
+      <img src={portada} alt="" className="portada"></img>
+      </div>
     
-    <header>
-     <Link to="/inicio2" onClick={() => console.log("Logo clicked")}>
-     <div className="logo">
-     <img src = {Zampsoftwarelogo} alt="logo" width="50px"></img>
-     </div>
-     </Link>
-     <ul>
-     <li>
-     <Link to="/inicio2">INICIO</Link>
-     </li>
-     </ul>
-     <ul>
-     <li>
-     <Link to="/Productolista">PRODUCTOS</Link>
-     </li>
-     </ul>
-     <div className="cart">
-     <box-icon name="cart"></box-icon>
-     <span className="item_total">0</span>
-     </div>
-     </header>
  );
  
      

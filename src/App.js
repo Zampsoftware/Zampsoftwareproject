@@ -11,10 +11,9 @@ function App() {
     <div className="App">
       <Router>
         <Header />
-        
+
+        <Paginas />
         <Routes> 
-          
-          <Route path="*" element={<Paginas />} />
           <Route path="/Productolista" element={<Productolista />} />
         </Routes>
       </Router>
