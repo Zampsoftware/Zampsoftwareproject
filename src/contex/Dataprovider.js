@@ -19,8 +19,8 @@ setProducto(producto)
  },[] ) 
  
  const value = { 
-    producto : [producto]
- }
+   producto: producto
+ };
  
  return (
     <Datacontex.Provider value = {value}> 

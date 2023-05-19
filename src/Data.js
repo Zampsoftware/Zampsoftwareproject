@@ -223,7 +223,7 @@ const data = {
       color: "azul oscuro dril"
     },
     {
-      id: 21,
+      id: 22,
       title: "jeans hombre  version young ",
       price: 353,
       image: require('./images/pngwing.com (20).png'),
@@ -234,7 +234,7 @@ const data = {
       color: "azul oscuro"
     },
     {
-      id: 22,
+      id: 23,
       title: "jeans hombre  version junior ",
       price: 353,
       image: require('./images/pngwing.com (21).png'),
@@ -245,7 +245,7 @@ const data = {
       color: "azul oscuro mate"
     },
     {
-      id: 23,
+      id: 24,
       title: " short mujer  version attractive ",
       price: 353,
       image: require('./images/pngwing.com (22).png'),
@@ -256,7 +256,7 @@ const data = {
       color: "azul oscuro mate"
     },
     {
-      id: 24,
+      id: 25,
       title: " jeans mujer  version classic ",
       price: 153,
       image: require('./images/pngwing.com (23).png'),
@@ -267,7 +267,7 @@ const data = {
       color: "azul oscuro mate"
     },
     {
-      id: 25,
+      id: 26,
       title: " vestido mujer  version attractive ",
       price: 153,
       image: require('./images/pngwing.com (25).png'),
@@ -278,7 +278,7 @@ const data = {
       color: "naranja"
     },
     {
-      id: 26,
+      id: 27,
       title: " vestido mujer  version trendy ",
       price: 153,
       image: require('./images/pngwing.com (26).png'),
@@ -289,7 +289,7 @@ const data = {
       color: "rojo"
     },
     {
-      id: 27,
+      id: 28,
       title: " vestido mujer  version elegant ",
       price: 353,
       image: require('./images/pngwing.com (27).png'),
@@ -300,7 +300,7 @@ const data = {
       color: "rojo "
     },
     {
-      id: 28,
+      id: 29,
       title: " buzo mujer  version casual ",
       price: 153,
       image: require('./images/pngwing.com (28).png'),
@@ -311,7 +311,7 @@ const data = {
       color: "rosado"
     }, 
     {
-      id: 28,
+      id: 30,
       title: " sueter cuello redondo version sport ",
       price: 153,
       image: require('./images/pngwing.com (29).png'),
@@ -322,7 +322,7 @@ const data = {
       color: "negro"
     },
     {
-      id: 30,
+      id: 31,
       title: " buzo hombre  version casual ",
       price: 153,
       image: require('./images/pngwing.com (30).png'),
@@ -333,7 +333,7 @@ const data = {
       color: "gris"
     },
     {
-      id: 31,
+      id: 32,
       title: " sueter cuello redondo  version fitness ",
       price: 153,
       image: require('./images/pngwing.com (31).png'),
@@ -344,7 +344,7 @@ const data = {
       color: "azul"
     },
     {
-      id: 32,
+      id: 33,
       title: " sueter cuello redondo version youth ",
       price: 153,
       image: require('./images/pngwing.com (28).png'),
@@ -355,7 +355,7 @@ const data = {
       color: "rosado"
     },
     {
-      id: 33,
+      id: 34,
       title: " buzo mujer  version elegant ",
       price: 153,
       image: require('./images/pngwing.com (33).png'),
@@ -366,7 +366,7 @@ const data = {
       color: "verde esmeralda"
     },
     {
-      id: 34,
+      id: 35,
       title: " buzo hombre  version exotic",
       price: 153,
       image: require('./images/pngwing.com (34).png'),
@@ -377,7 +377,7 @@ const data = {
       color: "rojo claro"
     },
     {
-      id: 35,
+      id: 36,
       title: " camisa tipo polo hombre  version casual",
       price: 153,
       image: require('./images/pngwing.com.png'),
