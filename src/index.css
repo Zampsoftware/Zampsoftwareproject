@@ -222,7 +222,9 @@ header .cart span{
 } .title2{ 
   margin:0;
   padding:0;
-} @media (max-width: 600px) {
+} 
+
+@media (max-width: 600px) {
   .inicio2 {
     margin-top: 80px;
   }

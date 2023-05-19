@@ -1,4 +1,5 @@
-import React from "react";
+import React, {useContext} from "react";
+import {Datacontex} from "../../contex/Dataprovider";
 import IMG from "../../images/blusa.png";
 import imagen1 from "../../images/Nike.png";
 import imagen2 from "../../images/pngwing.com (11).png";
@@ -20,6 +21,15 @@ import imagen17 from "../../images/pngwing.com (28).png";
 import imagen18 from "../../images/pngwing.com (25).png";
 import imagen19 from "../../images/pngwing.com (26).png";
  export const Productolista = () => { 
+
+const value = useContext(Datacontex)
+const [Producto] = value.producto[0]
+
+console.log(Producto);
+
+
+
+
     return (
       <>
      <h1 className="title">PRODUCTOS</h1>

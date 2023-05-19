@@ -4,9 +4,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import 'boxicons';
 import Paginas from "./component/paginas";
 import { Productolista } from './component/product/producto';
-
+import {DataProvider} from "./contex/Dataprovider";
 function App() {
-  return (
+  return ( 
+    <DataProvider>
     <div className="App">
       <Router>
         <Header />
@@ -18,6 +19,7 @@ function App() {
         </Routes>
       </Router>
     </div>
+    </DataProvider>
   );
 }
 
